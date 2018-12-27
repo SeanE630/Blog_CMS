@@ -1,3 +1,6 @@
+<?php require_once("../config/db.php"); ?>
+<?php require_once("../config/sessions.php"); ?>
+<?php require_once("../config/functions.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <?php
@@ -11,6 +14,9 @@
     ?>
             <div class="col-sm-10">
                 <h1>Admin Dashboard</h1>
+                <div>
+                    <?php echo ErrorMessage(); echo SuccessMessage(); ?>
+                </div>
                 <p>ard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing L</p>
             </div> <!--End of Main Area -->
         </div> <!--End Row -->
