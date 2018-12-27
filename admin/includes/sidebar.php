@@ -2,7 +2,7 @@
                 <h2>Hello Sean!</h2>
                 <ul id="side_menu" class="nav nav-pills nav-stacked">
                     <li class="active"><a href="Dashboard.php"><span class="fas fa-bars"></span>&nbsp;Dashboard</a></li>
-                    <li><a href="#"><span class="fas fa-plus"></span>&nbsp;Add New Post</a></li>
+                    <li><a href="AddNewPost.php"><span class="fas fa-plus"></span>&nbsp;Add New Post</a></li>
                     <li><a href="#"><span class="fas fa-comments"></span>&nbsp;Comments</a></li>
                     <li><a href="categories.php"><span class="fas fa-tags"></span>&nbsp;Categories</a></li>
                     <li><a href="#"><span class="fas fa-user"></span>&nbsp;Manage Admins</a></li>
